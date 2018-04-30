@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Synopsys eLearning</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Style Sheets -->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+
+    <!--Javascript Libraries-->
+    <script src="js/vendor/jquery/dist/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <header id="page-header">
+        <div class="jumbotron">
+            <a class="logo" href="https://www.synopsys.com">
+                <img width="189" height="41" alt="Synopsys" src="img/synopsys.png"></img>
+            </a>
+        </div>
+    </header>
+
+
+
+    <nav></nav>
+
+    <aside></aside>
+
+    <div class="welcome container">
+        <h3>
+            <center>E-Learning Portal</center>
+        </h3>
+        <p>“People expect to be bored by eLearning—let’s show them it doesn’t have to be like that!” - Cammy Bean<p>
+    </div>
+
+    <div id="page-container" class="container"></div>
+
+    <footer class="container-fluid">
+
+        <a class="logo" href="https://www.synopsys.com">
+            <img width="75" height="15" alt="Synopsys" src="img/synopsys.png"></img>
+        </a>
+
+        <div class="small">
+            ©2018 Synopsys, Inc. All Rights Reserved
+        </div>
+
+    </footer>
+
+    <script src="js/vendor/requirejs/require.js"></script>
+    <script type="text/Javascript">
+        require(['js/require.config'],function(config){ require(['jquery','app']); });
+    </script>
+</body>
+
+</html>

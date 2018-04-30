@@ -1,0 +1,28 @@
+{
+  "name": "synopsys-learning-portal",
+  "description": "A web app that manages different e-learning courses.",
+  "main": "index.js",
+  "authors": [
+    "Muthu"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/muthuselvan86/synopsys-learning-portal",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/js/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "underscore": "^1.9.0",
+    "backbone": "^1.3.3",
+    "requirejs": "^2.3.5",
+    "handlebars": "^4.0.11",
+    "jquery-validator": "^1.0.0",
+    "text": "^2.0.15",
+    "backbone.paginator": "^2.0.6"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "synopsys-learning-portal",
+  "version": "1.0.0",
+  "description": "A web app that manages different e-learning courses.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-mac": "DEBUG=server NODE_ENV=development OPEN_WEB_BROWSER=yes PORT=3000 node ./server/bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muthuselvan86/synopsys-learning-portal.git"
+  },
+  "author": "Muthu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/muthuselvan86/synopsys-learning-portal/issues"
+  },
+  "homepage": "https://github.com/muthuselvan86/synopsys-learning-portal#readme",
+  "devDependencies": {
+    "body-parser": "~1.15.1",
+    "bower": "^1.8.4",
+    "chalk": "^2.4.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "express": "~4.13.4",
+    "hbs": "~4.0.0",
+    "morgan": "~1.7.0",
+    "open": "0.0.5",
+    "serve-favicon": "~2.3.0"
+  }
+}
