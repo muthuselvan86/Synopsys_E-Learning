@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start-mac": "DEBUG=server NODE_ENV=development OPEN_WEB_BROWSER=yes PORT=3000 node ./server/bin/www"
+    "start-mac": "DEBUG=server NODE_ENV=development OPEN_WEB_BROWSER=yes PORT=3000 node ./server/bin/www",
+    "start-win": "DEBUG=server && NODE_ENV=development && OPEN_WEB_BROWSER=yes && PORT=3000 && node ./server/bin/www"
   },
   "repository": {
     "type": "git",
